@@ -7,18 +7,27 @@
   background: #fff;
   min-width: 80px;
   text-align: center;
-  box-shadow: 2px 2px 2px #ddd;
+  box-shadow: 0px 2px 4px #ddd;
   border-width: 2px;
+  transition: all .5s;
+  border-radius: 2px;
+}
+
+.card:hover, .card:focus {
+  cursor: move;
+  transform: scale(1.1);
+  border-color: #bbb;
 }
 
 .correct {
-  border-color: green;
+  border-color: #00c900;
 }
 
 .inCorrect {
-  border-color: red;
+  border-color: #dc0000;
 }
 
 .over {
-  border-color: blue;
+  border-color: #0069e4;
 }
+

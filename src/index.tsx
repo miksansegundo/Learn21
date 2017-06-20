@@ -2,8 +2,7 @@ import * as React from 'react';
 import 'core-js/modules/es6.object.assign'
 
 require('file-loader?name=./index.html!./index.html');
-require('file-loader?name=./favicon.ico!./index.html');
-require('file-loader?name=./global.css!./assets/favicon.ico');
+require('file-loader?name=./favicon.ico!./assets/favicon.ico');
 require('./global.css')
 
 import { store } from './libs/reducers/store'

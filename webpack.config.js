@@ -1,4 +1,5 @@
 const path = require('path')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const webpack = require('webpack')
 
 const settings = {
@@ -26,19 +27,23 @@ const settings = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true,
-              sourceMap: true,
-              importLoaders: 1,
-              localIdentName: '[name]--[local]--[hash:base64:8]'
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                modules: true,
+                sourceMap: true,
+                importLoaders: 1,
+                localIdentName: '[name]--[local]--[hash:base64:8]'
+              }
+            },
+            {
+              loader: 'postcss-loader'
             }
-          },
-          'postcss-loader' // has separate config, see postcss.config.js nearby
-        ]
+          ]
+        })
       },
       { test: /\.png$/, loader: 'url-loader?limit=100000' },
       // jpg files are never inlined
@@ -61,6 +66,7 @@ const settings = {
     new webpack.LoaderOptionsPlugin({
       debug: true
     }),
+    new ExtractTextPlugin('modules.css')
   ],
 }
 
