@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-
 import Game from '../../components/Game/Game'
+const css = require('./styles.css')
 
 function Home (props) {
   const {word} = props
   return (
-    <div>
+    <main className={css.main}>
       <Game word={word}/>
-      <p>The word is: <strong>{word}</strong>strong></p>
-    </div>
+      <p>The word is: <strong>{word}</strong></p>
+    </main>
   )
 }
 

@@ -3,7 +3,7 @@ const classNames = require('classnames')
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { Icard, changeOrderAction } from '../../libs/actions/actions'
-const css = require('./ir-styles.css')
+const css = require('./styles.css')
 
 export interface ICardsProps {
   actions: {

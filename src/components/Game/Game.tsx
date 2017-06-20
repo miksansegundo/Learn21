@@ -5,7 +5,7 @@ import Cards from '../Cards/Cards'
 import {
   getCardsAction,
   setOrderByKeyboardAction } from '../../libs/actions/actions'
-const css = require('./ir-styles.css')
+const css = require('./styles.css')
 
 export interface IGameProps {
   actions: {

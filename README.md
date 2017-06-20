@@ -1,7 +1,15 @@
-iRespond UI
-===============
+The Letters Game
+================
 
-This repo holds the iRespond UI. All screens are componsed by React components. The state by screen can be switched by mock actions visualizing the UI states.
+This repo holds **The Letters Game** for Learn21. It's using TypeScript and its built with Webpack. The stack is React, Redux, postCSS and CSS Modules. 
+
+### Features
+1. The Game component accepts one parameter `word`
+2. The Word is scrambled and broken down into letters inside cards: family becomes -> [ y ] [ l ] [ m ] [ f ] [ a ] [ l ] [ i ] 
+3. You can type letter after letter and the cards will start lining up. If you type: f, a, the cards will look like: [ f ], [ a ], ...
+4. Pressing Backspace undoes the last step
+5. Cards can also be dragged in order using mouse
+6. When you press Enter the correctness of each card is checked out, correctly positioned ones are highlighted in green, incorrect ones are in red
 
 ## NPM Scripts
 
@@ -13,12 +21,12 @@ Runs a webpack-dev-server at http://localhost:8080
 
 ### Build
 
-Builds a distribution version in the *build* directory
+Builds a distribution version in the *public* directory
 
     npm run build
 
 ### Deploy
 
-Deploy a distribution version in the http://irespond.surge.sh domain
+Deploy a distribution version in the http://learn21.surge.sh domain
 
     npm run deploy
