@@ -1,5 +1,6 @@
 export default {
-  api: "http://localhost:3000",
-  limit: 100,
-  paginationLimit: 7
+  api: '',
+  word: 'LEARN21',
+  undoKey: 32,
+  correctKey: 13
 }

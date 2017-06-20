@@ -1,9 +1,15 @@
 The Letters Game
 ================
 
-This repo holds **The Letters Game** for Learn21. It's using TypeScript and its built with Webpack. The stack is React, Redux, postCSS and CSS Modules. 
+This repo holds **The Letters Game** for Learn21. It's coded on **TypeScript** with **[JavaScript Standard Style](https://standardjs.com/)** and it's built with **Webpack**. 
 
-### Features
+The stack is:
+  - **React**
+  - **Redux**
+  - **CSS Modules**
+  - **postCSS**
+
+### Requirements
 1. The Game component accepts one parameter `word`
 2. The Word is scrambled and broken down into letters inside cards: family becomes -> [ y ] [ l ] [ m ] [ f ] [ a ] [ l ] [ i ] 
 3. You can type letter after letter and the cards will start lining up. If you type: f, a, the cards will look like: [ f ], [ a ], ...

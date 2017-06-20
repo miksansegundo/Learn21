@@ -1,3 +1,13 @@
+/* Cards CSS Module */
+@keyframes fadein {
+  from { position: relative; top: -50px; opacity: 0; }
+  to   { position: relative; top: 0; opacity: 1; }
+}
+
+.cards {
+  min-height: 215px;
+}
+
 .card {
   padding: 20px;
   border: 1px solid #ccc;
@@ -11,12 +21,13 @@
   border-width: 2px;
   transition: all .5s;
   border-radius: 2px;
+  animation: fadein 2s;
 }
 
 .card:hover, .card:focus {
   cursor: move;
   transform: scale(1.1);
-  border-color: #bbb;
+  border-color: #aaa;
 }
 
 .correct {

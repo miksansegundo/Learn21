@@ -6,7 +6,9 @@ import {
   getCardsAction,
   setOrderByKeyboardAction } from '../../libs/actions/actions'
 const css = require('./styles.css')
-
+/**
+ * Game Interface
+ */
 export interface IGameProps {
   actions: {
     getCards: (IgetCards) => void,
@@ -14,10 +16,13 @@ export interface IGameProps {
   },
   word: string
 }
-
+/**
+ * Game Component
+ */
 function Game (props: IGameProps) {
   const {getCards, setOrderByKeyboard} = props.actions
   const {word} = props
+  // On Key Up event
   function onKeyUp (e) {
     const code = e.keyCode ? e.keyCode : e.charCode
     const key = String.fromCharCode(code)
@@ -32,13 +37,17 @@ function Game (props: IGameProps) {
     <Cards />
   )
 }
-
+/**
+ * State to properties
+ */
 function mapStateToProps (state, props) {
   return {
     word: state.data.word
   }
 }
-
+/**
+ * Actions to properties
+ */
 function mapDispatchToProps(dispatch) {
   return { actions: bindActionCreators({
     getCards: getCardsAction,

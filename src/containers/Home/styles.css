@@ -1,11 +1,16 @@
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+/* Home CSS Module */
 
 .main {
   padding: 40px;
   box-sizing: border-box;
   text-align: center;
-  animation: fadein 2s;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.goal {
+  font-weight: bold;
+  font-size: 20px;
 }

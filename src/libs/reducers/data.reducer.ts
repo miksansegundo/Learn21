@@ -1,5 +1,6 @@
 import { Action as ReduxAction } from 'redux'
 import { isType } from 'redux-typescript-actions'
+import configs from '../configs'
 import {
   handleChangeAction,
   getCardsAction,
@@ -12,7 +13,7 @@ import {
  * Default State
  */
 const DEFAULT_STATE = {
-  word: 'LEARN21',
+  word: configs.word,
   cards: [],
   previousState: null,
   correction: false

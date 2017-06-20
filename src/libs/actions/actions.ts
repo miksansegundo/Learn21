@@ -1,7 +1,5 @@
 import actionCreatorFactory from 'redux-typescript-actions'
 const actionCreator = actionCreatorFactory()
-import axios from 'axios'
-import txt from '../literals'
 import config from '../configs'
 
 export const handleChangeAction = actionCreator<IhandleChange>('STATE_CHANGE')
@@ -33,12 +31,12 @@ export function setOrderByKeyboardAction ({payload: {key, code}}:IsetOrderByKeyb
     }
   }
   // Check if the key pressed is the space bar
-  function isSpaceBar (code) {
-    return (code === 32)
+  function isUndoKey (code) {
+    return (code === config.undoKey)
   }
   // Check if the key pressed is the enter
-  function isEnter (code) {
-    return (code === 13)
+  function isCorrectKey (code) {
+    return (code === config.correctKey)
   }
   // Action
   return (dispatch, store) => {
@@ -48,9 +46,9 @@ export function setOrderByKeyboardAction ({payload: {key, code}}:IsetOrderByKeyb
     if (cardPosition) {
       dispatch(changeOrderAction({positionDragged: cardPosition, positionDropped: keyCounter}))
       incrementKeyCounter(cards.length)
-    } else if (isSpaceBar(code)) {
+    } else if (isUndoKey(code)) {
       dispatch(undoAction())
-    } else if (isEnter(code)) {
+    } else if (isCorrectKey(code)) {
       dispatch(correctAction())
     }
   }
