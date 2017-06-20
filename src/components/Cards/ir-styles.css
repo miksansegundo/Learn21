@@ -1,0 +1,24 @@
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: inline-block;
+  font-size: 100px;
+  background: #fff;
+  min-width: 80px;
+  text-align: center;
+  box-shadow: 2px 2px 2px #ddd;
+  border-width: 2px;
+}
+
+.correct {
+  border-color: green;
+}
+
+.inCorrect {
+  border-color: red;
+}
+
+.over {
+  border-color: blue;
+}
