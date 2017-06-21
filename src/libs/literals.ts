@@ -5,7 +5,7 @@ export default {
   intructions: [
     '<strong>Drag & Drop</strong> to sort the letters',
     'or <strong>Type using the keyboard</strong> the right word',
-    'Press the <strong>Spacebar key</strong> to undo the last change',
+    'Press the <strong>Backspace key</strong> several times to undo the last changes',
     'Press the <strong>Enter key</strong> to see if you sorted them correctly'
   ]
 }

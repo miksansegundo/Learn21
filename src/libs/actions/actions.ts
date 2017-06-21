@@ -2,6 +2,9 @@ import actionCreatorFactory from 'redux-typescript-actions'
 const actionCreator = actionCreatorFactory()
 import config from '../configs'
 
+/**
+ * Actions
+ */
 export const handleChangeAction = actionCreator<IhandleChange>('STATE_CHANGE')
 export const getCardsAction = actionCreator<IgetCards>('GET_LETTERS')
 export const changeOrderAction = actionCreator<IchangeOrder>('CHANGE_ORDER')
@@ -11,7 +14,7 @@ export const setUserAction = actionCreator<{}>('SET_USER')
 export const correctAction = actionCreator('CORRECT')
 
 /**
- * Change the order by keyboard
+ * Action to Change the order by keyboard
  */
 let keyCounter = 0
 export function setOrderByKeyboardAction ({payload: {key, code}}:IsetOrderByKeyboard) {
@@ -53,6 +56,11 @@ export function setOrderByKeyboardAction ({payload: {key, code}}:IsetOrderByKeyb
     }
   }
 }
+
+/**
+ * Interfaces
+ */
+
 /**
  * setOrderByKeyboard Interface
  */

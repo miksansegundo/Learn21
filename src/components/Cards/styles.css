@@ -9,12 +9,13 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 
 .card {
   padding: 20px;
   border: 1px solid #ccc;
-  margin: 10px;
+  margin: 15px;
   font-size: 100px;
   background: #fff;
   min-width: 85px;
@@ -26,9 +27,9 @@
   transition: all .5s;
 }
 
-.card:hover, .card:focus {
+.card:hover {
   cursor: move;
-  transform: scale(1.15) translateY(4.9%);
+  transform: scale(1.12) translateY(4.9%);
   border-color: #aaa;
   transition: transform .3s ease-in-out;
 }
