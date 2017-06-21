@@ -62,8 +62,8 @@ function onDrop (positionDropped, changeOrder) {
 /**
  * Is the card in a correct position?
  */
-function isCorrect(correctPosition, position) {
-  return (correctPosition ===  position)
+function isCorrect(card) {
+  return card.correction
 }
 /**
  * Card Component
@@ -77,8 +77,8 @@ function Cards (props: ICardsProps) {
         <div key={i} draggable={true}
              className={classNames({
                [css.card]: true,
-               [css.correct]: (correction && isCorrect(card.correctPosition, i)),
-               [css.inCorrect]: (correction && !isCorrect(card.correctPosition, i))
+               [css.correct]: (correction && isCorrect(card)),
+               [css.inCorrect]: (correction && !isCorrect(card))
              })}
              onDragStart={dragStart(i)}
              onDragOver={onDragOver}

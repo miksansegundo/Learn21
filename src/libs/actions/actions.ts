@@ -80,7 +80,7 @@ export interface IgetCards {
  */
 export interface Icard {
   value: string,
-  correctPosition: number
+  correction: boolean
 }
 /**
  * ChangeOrder Interface

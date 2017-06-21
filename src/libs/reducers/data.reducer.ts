@@ -33,7 +33,6 @@ function handleChange (state, {payload: {path, value}}) {
   return newState
 }
 
-
 /**
  * Shuffle an Array
  */
@@ -54,7 +53,7 @@ function getCards (state, {payload: {word}}) {
   return Object.assign({}, state, {
     cards: shuffleArray(Array.from(word).map((card, i) => {
       return {
-        correctPosition: i,
+        correction: false,
         value: card
       }
     }))
@@ -62,16 +61,28 @@ function getCards (state, {payload: {word}}) {
 }
 
 /**
- * Change the cards order on Drag & Drop
+ * Correct the cards order
+ */
+function correctCards (cards, word) {
+  return cards.map((card,i) => {
+    return {
+      ...card,
+      correction: (word[i] === card.value)
+    }
+  })
+}
+
+/**
+ * Change the cards order on Drag & Drop and when typing
  */
 function changeOrder (state, {payload: {positionDragged, positionDropped}}) {
   const newCards = [...state.cards]
   const cardDragged = newCards.splice(positionDragged, 1)[0]
   newCards.splice(positionDropped, 0, cardDragged)
-
+  const cardsCorrected = correctCards(newCards, state.word)
   return Object.assign({}, state, {
     previousState: JSON.parse(JSON.stringify(state)),
-    cards: newCards
+    cards: cardsCorrected
   })
 }
 
@@ -91,7 +102,8 @@ function undo (state) {
  */
 function correct (state) {
   return Object.assign({}, state, {
-    correction: true
+    correction: !state.correction,
+    cards: correctCards(state.cards, state.word)
   })
 }
 

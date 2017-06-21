@@ -1,3 +1,18 @@
+console.log(`
+  #       The Letters Game
+  #  .--------------------------.  #
+  #    __   _____  __    __  __    #
+  #   |__| |     ||  |  |  ||  |   #
+  #    __  | ||  ||  |  |  ||  |   #
+  #   |  | | ||  ||  |  |  ||  |   #
+  #   |  | | ''  ||  |_ |  ||  |   #
+  #   |  |  \`-.  ||    ||  ''  |   #
+  #   '--' .--'  | \`---' \`-----'   #
+  #        '-----'                 #
+  #  .--------------------------.  #
+  #    WHERE COOL THINGS HAPPEN    #
+`)
+
 import * as React from 'react';
 import 'core-js/modules/es6.object.assign'
 
