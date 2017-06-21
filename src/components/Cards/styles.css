@@ -27,11 +27,11 @@
   transition: all .5s;
 }
 
-.card:hover {
+.over {
   cursor: move;
   transform: scale(1.12) translateY(4.9%);
-  border-color: #aaa;
   transition: transform .3s ease-in-out;
+  border-color: #0069e4;
 }
 
 .correct {
@@ -42,7 +42,7 @@
   border-color: #dc0000;
 }
 
-.over {
-  border-color: #0069e4;
+.card:hover {
+  cursor: move;
 }
 

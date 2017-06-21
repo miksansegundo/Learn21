@@ -4,9 +4,6 @@
     <list default="true" id="dcb3ddef-65c4-4801-8d21-746d10e8ac62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Cards/styles.css" afterPath="$PROJECT_DIR$/src/components/Cards/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/actions/actions.ts" afterPath="$PROJECT_DIR$/src/libs/actions/actions.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/configs.ts" afterPath="$PROJECT_DIR$/src/libs/configs.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/literals.ts" afterPath="$PROJECT_DIR$/src/libs/literals.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +56,18 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="179">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cards.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Cards/Cards.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="22" column="67" lean-forward="true" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -529,7 +536,7 @@
       <workItem from="1497936468303" duration="40000" />
       <workItem from="1497937643875" duration="978000" />
       <workItem from="1497938638000" duration="21054000" />
-      <workItem from="1497963736532" duration="13212000" />
+      <workItem from="1497963736532" duration="13763000" />
     </task>
     <task id="LOCAL-00001" summary="Hot reload, CSS Modules">
       <created>1494593734586</created>
@@ -573,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498017632875</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CSS hover issue. Backspace key issue.">
+      <created>1498037384842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1498037384842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166398000" />
+    <option name="totallyTimeSpent" value="166949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,7 +658,8 @@
     <MESSAGE value="Comments and Literals with instructions" />
     <MESSAGE value="Toggle Correction, some CSS and the cool Iglu.net" />
     <MESSAGE value="CSS Flexbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS Flexbox" />
+    <MESSAGE value="CSS hover issue. Backspace key issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS hover issue. Backspace key issue." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cards/Cards.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/reducers/store.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -890,10 +897,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/Cards.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="67" lean-forward="true" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="179">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
