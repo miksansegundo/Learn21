@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb3ddef-65c4-4801-8d21-746d10e8ac62" name="Default" comment="">
+    <list default="true" id="dcb3ddef-65c4-4801-8d21-746d10e8ac62" name="Default" comment="CSS hover issue.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Cards/styles.css" afterPath="$PROJECT_DIR$/src/components/Cards/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Home/styles.css" afterPath="$PROJECT_DIR$/src/containers/Home/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,11 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="-37">
               <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Game/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Home/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -190,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/components/Game/styles.css" />
         <option value="$PROJECT_DIR$/src/containers/Home/Home.tsx" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/containers/Home/styles.css" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/libs/reducers/data.reducer.ts" />
         <option value="$PROJECT_DIR$/src/components/Cards/Cards.tsx" />
@@ -198,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/libs/actions/actions.ts" />
         <option value="$PROJECT_DIR$/src/libs/literals.ts" />
         <option value="$PROJECT_DIR$/src/components/Cards/styles.css" />
+        <option value="$PROJECT_DIR$/src/containers/Home/styles.css" />
       </list>
     </option>
   </component>
@@ -536,7 +556,7 @@
       <workItem from="1497936468303" duration="40000" />
       <workItem from="1497937643875" duration="978000" />
       <workItem from="1497938638000" duration="21054000" />
-      <workItem from="1497963736532" duration="13763000" />
+      <workItem from="1497963736532" duration="14208000" />
     </task>
     <task id="LOCAL-00001" summary="Hot reload, CSS Modules">
       <created>1494593734586</created>
@@ -587,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498037384842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CSS hover issue.">
+      <created>1498038036678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498038036678</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166949000" />
+    <option name="totallyTimeSpent" value="167394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,7 +686,8 @@
     <MESSAGE value="Toggle Correction, some CSS and the cool Iglu.net" />
     <MESSAGE value="CSS Flexbox" />
     <MESSAGE value="CSS hover issue. Backspace key issue." />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS hover issue. Backspace key issue." />
+    <MESSAGE value="CSS hover issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS hover issue." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,14 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Game/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Game/Game.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -815,14 +835,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,8 +919,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="-37">
           <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Game/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
