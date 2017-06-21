@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb3ddef-65c4-4801-8d21-746d10e8ac62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Cards/Cards.tsx" afterPath="$PROJECT_DIR$/src/components/Cards/Cards.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Cards/styles.css" afterPath="$PROJECT_DIR$/src/components/Cards/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.tsx" afterPath="$PROJECT_DIR$/src/index.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/actions/actions.ts" afterPath="$PROJECT_DIR$/src/libs/actions/actions.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/libs/reducers/data.reducer.ts" afterPath="$PROJECT_DIR$/src/libs/reducers/data.reducer.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data.reducer.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data.reducer.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/libs/reducers/data.reducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -60,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="126">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -170,9 +166,9 @@
         <option value="$PROJECT_DIR$/src/containers/Home/styles.css" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/libs/actions/actions.ts" />
-        <option value="$PROJECT_DIR$/src/components/Cards/styles.css" />
         <option value="$PROJECT_DIR$/src/libs/reducers/data.reducer.ts" />
         <option value="$PROJECT_DIR$/src/components/Cards/Cards.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Cards/styles.css" />
       </list>
     </option>
   </component>
@@ -511,7 +507,7 @@
       <workItem from="1497936468303" duration="40000" />
       <workItem from="1497937643875" duration="978000" />
       <workItem from="1497938638000" duration="21054000" />
-      <workItem from="1497963736532" duration="11309000" />
+      <workItem from="1497963736532" duration="11695000" />
     </task>
     <task id="LOCAL-00001" summary="Hot reload, CSS Modules">
       <created>1494593734586</created>
@@ -541,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497988539340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Toggle Correction, some CSS and the cool Iglu.net">
+      <created>1498016816238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498016816238</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164495000" />
+    <option name="totallyTimeSpent" value="164881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +613,8 @@
     <MESSAGE value="Readme file updated" />
     <MESSAGE value="CSS extraction in one file. Some CSS effects." />
     <MESSAGE value="Comments and Literals with instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments and Literals with instructions" />
+    <MESSAGE value="Toggle Correction, some CSS and the cool Iglu.net" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toggle Correction, some CSS and the cool Iglu.net" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,7 +747,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -838,14 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cards/Cards.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -856,11 +852,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/reducers/data.reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
